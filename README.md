@@ -7,3 +7,4 @@ Test Orbital Populations for LSST Cadence Operation SImulation Comparisons
   * i < 22 - Avoid contamination from Jupiter-family comets.
   * observation arc length > 100 days - Avoid low-quality orbits.
   * H > 15 mag - Cometary activity only seen in smaller objects (with Ceres as an exception).
+* `Kreutz.txt` (Ye): 2000 synthetic Kreutz sungrazing comets generated using the statistical orbit model in [Ye et al. (2014, AJ, 796, 83)](http://iopscience.iop.org/article/10.1088/0004-637X/796/2/83/meta). Note that the model does not include size information and all $H$ are set to 26.
