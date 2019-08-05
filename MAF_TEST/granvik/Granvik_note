@@ -1,0 +1,28 @@
+
+Version 1.0
+
+File Granvik+_2018_Icarus.dat contains a realization of the NEO model
+described in
+
+Granvik, Morbidelli, Jedicke, Bolin, Bottke, Beshore, Vokrouhlicky,
+Nesvorny, and Michel (2018). Debiased orbit and absolute-magnitude
+distributions for near-Earth objects. Accepted for publication in
+Icarus.
+
+The file Granvik+_2018_Icarus.dat contains 802,000 synthetic NEOs with
+17<H<25 parameterized by their orbits and absolute magnitudes. The 7
+columns in the file are
+
+1) semimajor axis [au]
+2) eccentricity
+3) inclination [deg]
+4) longitude of ascending node [deg]
+5) argument of perihelion [deg]
+6) mean anomaly [deg]
+7) absolute magnitude
+
+Please cite the above article if you use the data in your
+publications.
+
+Mikael Granvik
+27-04-2018
