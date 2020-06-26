@@ -14,3 +14,9 @@ Test Orbital Populations for LSST Cadence Operation SImulation Comparisons
 * `5-1-trailing-input.txt`: Simplified model of objects in the trailing libration island of Neptune's 5:1 resonance, scaled from the 2:1 leading island model in Volk et al., 2016.
 * `5-1-symmetric-input.txt`: Simplified model of objects in the symetric libration island of Neptune's 5:1 resonance, scaled from the 2:1 symmetric island model in Volk et al., 2016.
 * `ekbo-uniform-input-small.txt`: Simplified model of non-clustered extreme Kuiper belt objects. They are uniformly distrivuted from a=150-160 au and from perihelion distance q=40-60 au. All orbital angles are uniformly distributed.
+* `occ-vokrouhlicky19-case1_ver10-rmax5-5k.txt` (Kelley, Nesvorny, Vokroulicky): Case 1 version 1 (C1V1) of Vokrouhlicky et al. (2019, AJ 157, 181; https://iopscience.iop.org/article/10.3847/1538-3881/ab13aa).  Orbits were generated with the following method:
+  * Barycentric q, e, and i are randomly picked from the model simulation.
+  * Each orbit is assigned a random argument of perihelion (0 to 2π rad), longitude of the ascending node (0 to 2π rad), and mean anomaly (-1 to 1 rad).
+  * If the barycentric distance is within 5 au, then the state vector computed, otherwise the orbit is rejected.
+  * The state vector is given a random epoch between 2021-01-01 and 2036-01-01, and heliocentric osculating orbital elements are generated (via NAIF SPICE).
+* `occ-vokrouhlicky19-case1_ver10-rmax20-5k.txt`: Same as `occ-vokrouhlicky19-case1_ver10-rmax5-5k.txt` but picked with a maximum heliocentric distance of 20 au.
